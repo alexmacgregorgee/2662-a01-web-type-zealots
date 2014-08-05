@@ -48,12 +48,35 @@ body {width: 100%;
 	margin-left: auto;
 	margin-right:auto;
 	max-width: 1000px;
-	min-width: 520px;
+	min-width: 950px;
 	position:relative;
 	display:block;
-	background-color: #171B23;
+	background: #1c272b;
+background: #26393a url('/images/noise.png') left top repeat;;
+
+background: #26393a;
+
+background: -moz-linear-gradient(top,  #26393a 0%, #161c28 100%, #443c25 100%);
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#26393a), color-stop(100%,#161c28), color-stop(100%,#443c25));
+
+background: -webkit-linear-gradient(top,  #26393a 0%,#161c28 100%,#443c25 100%);
+
+background: -o-linear-gradient(top,  #26393a 0%,#161c28 100%,#443c25 100%);
+
+background: -ms-linear-gradient(top,  #26393a 0%,#161c28 100%,#443c25 100%);
+
+background: linear-gradient(to bottom,  #26393a 0%,#161c28 100%,#443c25 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26393a', endColorstr='#443c25',GradientType=0 );
+
+
+
+
 }
 
+
+	
 nav {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -77,6 +100,7 @@ header h1 {border-top: solid gray;
 	line-height: .8;
 	margin-bottom: 620px;
 	border-color: #64BB0A;
+	color: #1A1717;
 }
 /* end header */
 
@@ -164,7 +188,7 @@ dd {font-family: 'Open Sans', sans-serif;
 }
 
 .title {font-family: 'Playfair Display SC', serif;
-	font-size: 84px;
+	font-size: 94px;
 	margin-bottom: 200px;
 	font-weight:800;
 	color: white;
@@ -197,7 +221,7 @@ aside {margin-top: 2.25em;
 blockquote {font-family: droid-serif, serif;
 	font-weight: 100;
 	font-size: 19px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	margin-left: 10%;
 	margin-right: 15%;
 	text-align: left;
